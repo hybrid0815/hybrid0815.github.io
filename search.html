@@ -11,7 +11,7 @@
 
 
 
-  <title>Shader - CG & AI</title>
+  <title>Search Result</title>
   <meta content="True" name="HandheldFriendly"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <!-- Styles'n'Scripts -->
@@ -46,19 +46,19 @@
   <!-- This tag outputs SEO meta+structured data and other important settings -->
   <meta name="description" content="Computer Graphics And AI" />
     <link rel="shortcut icon" href="https://hybrid0815.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://hybrid0815.github.io/tag/shader/" />
+    <link rel="canonical" href="https://hybrid0815.github.io/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="CG & AI" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Shader - CG & AI" />
+    <meta property="og:title" content="Search Result" />
     <meta property="og:description" content="Computer Graphics And AI" />
-    <meta property="og:url" content="https://hybrid0815.github.io/tag/shader/" />
+    <meta property="og:url" content="https://hybrid0815.github.io/search" />
     <meta property="og:image" content="https://hybrid0815.github.io/assets/built/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Shader - CG & AI" />
+    <meta name="twitter:title" content="Search Result" />
     <meta name="twitter:description" content="Computer Graphics And AI" />
     <meta name="twitter:url" content="https://hybrid0815.github.io/" />
     <meta name="twitter:image" content="https://hybrid0815.github.io/assets/built/images/blog-cover.jpg" />
@@ -78,7 +78,7 @@
         "name": "CG & AI",
         "logo": "https://hybrid0815.github.io/"
     },
-    "url": "https://hybrid0815.github.io/tag/shader/",
+    "url": "https://hybrid0815.github.io/search",
     "image": {
         "@type": "ImageObject",
         "url": "https://hybrid0815.github.io/assets/built/images/blog-cover.jpg",
@@ -87,7 +87,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://hybrid0815.github.io/tag/shader/"
+        "@id": "https://hybrid0815.github.io/search"
     },
     "description": "Computer Graphics And AI"
 }
@@ -102,25 +102,21 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Tag Page" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
 
 
 </head>
 <body
-    class="tag-template">
+    class="page-template">
 
 <div class="site-wrapper">
   <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-  <!-- default -->
-<!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
+  <!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<!-- #tag -->
-<!-- dynamically loading backgrounds for tags,  descriptions and page titles -->
-
-
-
-<header class="site-header outer " style="background-image: url(/assets/images/speeches.jpg) ">
+<header class="site-header outer">
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
@@ -155,203 +151,100 @@
     </div>
 </nav>
 
-        <div class="site-header-content">
-            <h1 class="site-title">Shader</h1>
-            <h2 class="site-description">
-                
-    			    A collection of 3 posts
-                
-            </h2>
-        </div>
     </div>
 </header>
-<!-- tag -->
 
-<!-- The main content area -->
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">Search Result</h1>
+            </header>
+
             
 
+            <section class="post-full-content">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
 
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/unreal-material-basic-3">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/logos/unreal-logo.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/unreal-material-basic-3">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">3d</span>
-                            
-                        
-                            
-                               <span class="post-card-tags">Unreal</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Shader</span>
-                            
-                        
-                    
+<ul class="mylist" id="search-results"></ul>
 
-                    <h2 class="post-card-title">Unreal - Material(3) 기초</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>안녕하세요 Unreal - Material(3) 기초
+<script>
+    window.store = {
+    
+    "unreal-material-basic-3": {
+        "title": "Unreal - Material(3) 기초",
+            "author": "hybrid0815",
+            "category": "",
+            "content": "안녕하세요 Unreal - Material(3) 기초Unreal Material Basic    UE Material 1    UE Material 2    UE Material 3import numpy as np",
+        "url": "/unreal-material-basic-3"
+    }
+    ,
+    
+    "numpy-basic": {
+        "title": "Numpy",
+            "author": "hybrid0815",
+            "category": "",
+            "content": "안녕하세요 Numpy 기초 입니다.",
+        "url": "/numpy-basic"
+    }
+    ,
+    
+    "unreal-material-basic-2": {
+        "title": "Unreal - Material(2) 기초",
+            "author": "hybrid0815",
+            "category": "",
+            "content": "안녕하세요 Unreal - Material(2) 기초Unreal Material Basic    UE Material 1    UE Material 2    UE Material 3import numpy as np",
+        "url": "/unreal-material-basic-2"
+    }
+    ,
+    
+    "opencv-basic": {
+        "title": "OpenCV",
+            "author": "hybrid0815",
+            "category": "",
+            "content": "안녕하세요 open cv 기초 입니다.",
+        "url": "/opencv-basic"
+    }
+    ,
+    
+    "unreal-material-basic-1": {
+        "title": "Unreal - Material(1) 기초",
+            "author": "hybrid0815",
+            "category": "",
+            "content": "Unreal Material Basic    UE Material 1    UE Material 2    UE Material 3def getPolvectorTransfrom(start, mid, end):        # compute vectors    startMid = mid - start    midEnd = end - mid    startEnd = end - start        # compute translate    dotProdut = startMid.dot(startEnd)    projLength = dotProdut/ startEnd.length()    startEndN = startEnd.normal()    proj = projLength * startEndN    arrow = (startMid - proj).normal()    distance = (startMid.length() + midEnd.length()) / 2.0    translate = (arrow*distance) + mid        # compute rotate    up = (startEnd ^ startMid).normal()    front = -arrow    forword = (up ^ front).normal()     matrix = dt.TransformationMatrix(forword, up, front)    euler = matrix.eulerRotation()    rotateX = pm.degrees(euler.x)    rotateY = pm.degrees(euler.y)    rotateZ = pm.degrees(euler.z)    rotate = [rotateX, rotateY, rotateZ]        return [translate, rotate]def getPolvectorTransfrom(start, mid, end):        # compute vectors    startMid = mid - start    midEnd = end - mid    startEnd = end - start        # compute translate    dotProdut = startMid.dot(startEnd)    projLength = dotProdut/ startEnd.length()    startEndN = startEnd.normal()    proj = projLength * startEndN    arrow = (startMid - proj).normal()    distance = (startMid.length() + midEnd.length()) / 2.0    translate = (arrow*distance) + mid        # compute rotate    up = (startEnd ^ startMid).normal()    front = -arrow    forword = (up ^ front).normal()     matrix = dt.TransformationMatrix(forword, up, front)    euler = matrix.eulerRotation()    rotateX = pm.degrees(euler.x)    rotateY = pm.degrees(euler.y)    rotateZ = pm.degrees(euler.z)    rotate = [rotateX, rotateY, rotateZ]        return [translate, rotate]",
+        "url": "/unreal-material-basic-1"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
 
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.png" alt="hybrid0815" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/hybrid0815/">hybrid0815</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
+        </article>
 
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/unreal-material-basic-2">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/logos/unreal-logo.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/unreal-material-basic-2">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">3d</span>
-                            
-                        
-                            
-                               <span class="post-card-tags">Unreal</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Shader</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Unreal - Material(2) 기초</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>안녕하세요 Unreal - Material(2) 기초
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.png" alt="hybrid0815" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/hybrid0815/">hybrid0815</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/unreal-material-basic-1">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/logos/unreal-logo.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/unreal-material-basic-1">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">3d</span>
-                            
-                        
-                            
-                               <span class="post-card-tags">Unreal</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Shader</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Unreal - Material(1) 기초</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Unreal Material Basic
-
-    UE Material 1
-    UE Material 2
-    UE Material 3
-
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.png" alt="hybrid0815" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/hybrid0815/">hybrid0815</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-
-        </div>
     </div>
 </main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
 
 
   <!-- Previous/next page links - displayed on every page -->
@@ -430,7 +323,7 @@
 <!-- Paginator increased to "infinit" in _config.yml -->
 <!-- if paginator.posts  -->
 <!-- <script>
-    var maxPages = parseInt('1');
+    var maxPages = parseInt('');
 </script>
 <script src="/assets/js/infinitescroll.js"></script> -->
 <!-- /endif -->
@@ -453,6 +346,14 @@
 
 
 <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
 
 
 <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
