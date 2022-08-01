@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hybrid0815.github.io/author/hybrid0815/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hybrid0815.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-01T20:43:09+09:00</updated>
+  <updated>2022-08-01T21:32:47+09:00</updated>
   <id>https://hybrid0815.github.io/author/hybrid0815/feed.xml</id>
 
   
@@ -81,6 +81,81 @@
     </entry>
   
     <entry>
+      <title type="html">Maya - Pycharm Setup</title>
+      <link href="https://hybrid0815.github.io/maya" rel="alternate" type="text/html" title="Maya - Pycharm Setup" />
+      <published>2022-08-01T20:00:00+09:00</published>
+      <updated>2022-08-01T20:00:00+09:00</updated>
+      <id>https://hybrid0815.github.io/maya</id>
+      <content type="html" xml:base="https://hybrid0815.github.io/maya">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymel.all&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>hybrid0815</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="3D" />
+      
+        <category term="maya" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">import pymel.all as pm</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Numpy</title>
+      <link href="https://hybrid0815.github.io/numpy-basic" rel="alternate" type="text/html" title="Numpy" />
+      <published>2022-07-31T20:00:00+09:00</published>
+      <updated>2022-07-31T20:00:00+09:00</updated>
+      <id>https://hybrid0815.github.io/numpy-basic</id>
+      <content type="html" xml:base="https://hybrid0815.github.io/numpy-basic">&lt;p&gt;안녕하세요 Numpy 기초 입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>hybrid0815</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="AI" />
+      
+        <category term="math" />
+      
+
+      
+        <summary type="html">안녕하세요 Numpy 기초 입니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Unreal - Material(2) 기초</title>
       <link href="https://hybrid0815.github.io/unreal-material-basic-2" rel="alternate" type="text/html" title="Unreal - Material(2) 기초" />
       <published>2022-07-31T20:00:00+09:00</published>
@@ -123,42 +198,6 @@
 
       
         <summary type="html">안녕하세요 Unreal - Material(2) 기초</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Numpy</title>
-      <link href="https://hybrid0815.github.io/numpy-basic" rel="alternate" type="text/html" title="Numpy" />
-      <published>2022-07-31T20:00:00+09:00</published>
-      <updated>2022-07-31T20:00:00+09:00</updated>
-      <id>https://hybrid0815.github.io/numpy-basic</id>
-      <content type="html" xml:base="https://hybrid0815.github.io/numpy-basic">&lt;p&gt;안녕하세요 Numpy 기초 입니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>hybrid0815</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="AI" />
-      
-        <category term="math" />
-      
-
-      
-        <summary type="html">안녕하세요 Numpy 기초 입니다.</summary>
       
 
       

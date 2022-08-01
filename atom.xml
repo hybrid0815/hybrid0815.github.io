@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Maya - Pycharm Setup</title>
+        
+          <description>&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymel.all&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        
+        <pubDate>Mon, 01 Aug 2022 20:00:00 +0900</pubDate>
+        <link>
+        https://hybrid0815.github.io/maya</link>
+        <guid isPermaLink="true">https://hybrid0815.github.io/maya</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Unreal - Material(3) 기초</title>
         
           <description>&lt;p&gt;안녕하세요 Unreal - Material(3) 기초&lt;/p&gt;
