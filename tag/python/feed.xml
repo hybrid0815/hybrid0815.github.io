@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hybrid0815.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hybrid0815.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-01T21:36:30+09:00</updated>
+  <updated>2022-08-02T19:04:04+09:00</updated>
   <id>https://hybrid0815.github.io/tag/python/feed.xml</id>
 
   
@@ -32,13 +32,96 @@
 
   
     <entry>
-      <title type="html">Pycharm Setup For Maya</title>
-      <link href="https://hybrid0815.github.io/maya" rel="alternate" type="text/html" title="Pycharm Setup For Maya" />
-      <published>2022-08-01T20:00:00+09:00</published>
-      <updated>2022-08-01T20:00:00+09:00</updated>
-      <id>https://hybrid0815.github.io/maya</id>
-      <content type="html" xml:base="https://hybrid0815.github.io/maya">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymel.all&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+      <title type="html">Qt Designer For Maya</title>
+      <link href="https://hybrid0815.github.io/qt-designer-for-maya" rel="alternate" type="text/html" title="Qt Designer For Maya" />
+      <published>2022-08-02T21:00:00+09:00</published>
+      <updated>2022-08-02T21:00:00+09:00</updated>
+      <id>https://hybrid0815.github.io/qt-designer-for-maya</id>
+      <content type="html" xml:base="https://hybrid0815.github.io/qt-designer-for-maya">&lt;blockquote&gt;
+  &lt;p&gt;Window 10&lt;/p&gt;
+
+  &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Maya Develop Environment&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./pycharm-for-maya&quot;&gt;Pycharm For Maya&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./qt-designer-for-maya&quot;&gt;Qt Designer For Maya&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./visual-studio-for-maya&quot;&gt;Visual Studio For Maya&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Exteral Tools 설정&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802182308714.png&quot; alt=&quot;image-20220802182308714&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;PySide2-uic&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802183346774.png&quot; alt=&quot;image-20220802183346774&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Program : C:\Program Files\Autodesk\Maya2020\bin\mayapy.exe&lt;/p&gt;
+
+    &lt;p&gt;Arguments : “C:\Program Files\Autodesk\Maya2020\bin\pyside2-uic” $FileName$ -o ui_$FileNameWithoutExtension$.py&lt;/p&gt;
+
+    &lt;p&gt;Working directory : $FileDir$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;PySide2-rcc&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802184222544.png&quot; alt=&quot;image-20220802184222544&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Program : C:\Program Files\Autodesk\Maya2020\bin\pyside2-rcc.exe&lt;/p&gt;
+
+    &lt;p&gt;Arguments : $FileName$ -o rc_$FileNameWithoutExtension$.py&lt;/p&gt;
+
+    &lt;p&gt;Working directory : $FileDir$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Qt Designer&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802183657134.png&quot; alt=&quot;image-20220802183657134&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;QT Designer 프로그램 경로로 Python 버전과 상관없고, Maya2018에만 자동으로 설치되어있기 때문에 이 경로로 사용&lt;/p&gt;
+
+    &lt;p&gt;Program : C:\Program Files\Autodesk\Maya2018\bin\designer.exe&lt;/p&gt;
+
+    &lt;p&gt;Arguments : $FileName$&lt;/p&gt;
+
+    &lt;p&gt;Working Directory : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$FileDir$&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Qt Designer New&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802184804362.png&quot; alt=&quot;image-20220802184804362&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Program : C:\Program Files\Autodesk\Maya2018\bin\designer.exe&lt;/p&gt;
+
+    &lt;p&gt;Argument : 비워둠&lt;/p&gt;
+
+    &lt;p&gt;Working directory : $FileDir$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ui 파일 생성&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802185550929.png&quot; alt=&quot;image-20220802185550929&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802185629086.png&quot; alt=&quot;image-20220802185629086&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802185808370.png&quot; alt=&quot;image-20220802185808370&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802185853791.png&quot; alt=&quot;image-20220802185853791&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ui -&amp;gt; py&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802190116202.png&quot; alt=&quot;image-20220802190116202&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802190205103.png&quot; alt=&quot;image-20220802190205103&quot; /&gt;&lt;/p&gt;</content>
 
       
       
@@ -55,15 +138,151 @@
       
 
       
-        <category term="3D" />
+        <category term="python" />
       
         <category term="maya" />
       
-        <category term="python" />
+
+      
+        <summary type="html">Window 10 Maya 2020 Update 3 기준</summary>
       
 
       
-        <summary type="html">import pymel.all as pm</summary>
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Pycharm For Maya</title>
+      <link href="https://hybrid0815.github.io/pycharm-for-maya" rel="alternate" type="text/html" title="Pycharm For Maya" />
+      <published>2022-08-02T20:00:00+09:00</published>
+      <updated>2022-08-02T20:00:00+09:00</updated>
+      <id>https://hybrid0815.github.io/pycharm-for-maya</id>
+      <content type="html" xml:base="https://hybrid0815.github.io/pycharm-for-maya">&lt;blockquote&gt;
+  &lt;p&gt;Window 10&lt;/p&gt;
+
+  &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Maya Develop Environment&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./pycharm-for-maya&quot;&gt;Pycharm For Maya&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./qt-designer-for-maya&quot;&gt;Qt Designer For Maya&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./visual-studio-for-maya&quot;&gt;Visual Studio For Maya&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Devkit 다운로드 &lt;a href=&quot;https://www.autodesk.com/developer-network/platform-technologies/maya&quot;&gt;Maya DevKit Download&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802143145468.png&quot; alt=&quot;image-20220802143145468&quot; style=&quot;zoom: 80%;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;압축 풀기  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\Program Files\Autodesk\Maya2022\devkit&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802143513732.png&quot; alt=&quot;image-20220802143513732&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;프로젝트 생성 및 파이썬 선택&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802145002236.png&quot; alt=&quot;image-20220802145002236&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;C:\Program Files\Autodesk\Maya2020\bin\mayapy.exe 선택&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802145436780.png&quot; alt=&quot;image-20220802145436780&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802145611188.png&quot; alt=&quot;image-20220802145611188&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Plugin 설치&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802143810273.png&quot; alt=&quot;image-20220802143810273&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802144003791.png&quot; alt=&quot;image-20220802144003791&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pycharm 다시 실행 및 설치 확인&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802145753786.png&quot; alt=&quot;image-20220802145753786&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802145851322.png&quot; alt=&quot;image-20220802145851322&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Python Interpreter 설정 및 자동완성 설정&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802150202909.png&quot; alt=&quot;image-20220802150202909&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802150452582.png&quot; alt=&quot;image-20220802150452582&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802150556979.png&quot; alt=&quot;image-20220802150556979&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;C:\Program Files\Autodesk\Maya2020\devkit\other\pymel\extras\completion\py 추가&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802151337996.png&quot; alt=&quot;image-20220802151337996&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Maya Port 열기
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;maya.cmds&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cmds&lt;/span&gt;
+  
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cmds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;commandPort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:4434&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cmds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;commandPort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:4434&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802161827468.png&quot; alt=&quot;image-20220802161827468&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;자동 완성 테스트&lt;/p&gt;
+
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymel.all&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymel.core.datatypes&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dt&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;maya.cmds&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;maya.OpenMaya&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OM&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;maya.OpenMayaUI&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OMUI&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;PySide2.QtWidgets&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;PySide2.QtGui&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;PySide2.QtCore&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
+  
+&lt;span class=&quot;n&quot;&gt;cmds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;polyCube&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802162050689.png&quot; alt=&quot;image-20220802162050689&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;실행&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802162131894.png&quot; alt=&quot;image-20220802162131894&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802162332243.png&quot; alt=&quot;image-20220802162332243&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802162426590.png&quot; alt=&quot;image-20220802162426590&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802162525266.png&quot; alt=&quot;image-20220802162525266&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>hybrid0815</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+        <category term="maya" />
+      
+
+      
+        <summary type="html">Window 10 Maya 2020 Update 3 기준</summary>
       
 
       

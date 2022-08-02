@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://hybrid0815.github.io/tag/cpp/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://hybrid0815.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-08-02T19:04:04+09:00</updated>
+  <id>https://hybrid0815.github.io/tag/cpp/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">CG &amp;amp; AI | </title>
+  
+
+  
+    <subtitle>Computer Graphics And AI</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Visual Studio For Maya</title>
+      <link href="https://hybrid0815.github.io/visual-studio-for-maya" rel="alternate" type="text/html" title="Visual Studio For Maya" />
+      <published>2022-08-02T22:00:00+09:00</published>
+      <updated>2022-08-02T22:00:00+09:00</updated>
+      <id>https://hybrid0815.github.io/visual-studio-for-maya</id>
+      <content type="html" xml:base="https://hybrid0815.github.io/visual-studio-for-maya">&lt;blockquote&gt;
+  &lt;p&gt;Window 10&lt;/p&gt;
+
+  &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Maya Develop Environment&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./pycharm-for-maya&quot;&gt;Pycharm For Maya&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./qt-designer-for-maya&quot;&gt;Qt Designer For Maya&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./visual-studio-for-maya&quot;&gt;Visual Studio For Maya&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>hybrid0815</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="maya" />
+      
+        <category term="cpp" />
+      
+
+      
+        <summary type="html">Window 10 Maya 2020 Update 3 기준</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

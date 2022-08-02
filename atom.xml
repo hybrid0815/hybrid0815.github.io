@@ -8,16 +8,58 @@
     
       
       <item>
-        <title>Pycharm Setup For Maya</title>
+        <title>Visual Studio For Maya</title>
         
-          <description>&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymel.all&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Window 10&lt;/p&gt;
+
+  &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
+&lt;/blockquote&gt;
+
 </description>
         
-        <pubDate>Mon, 01 Aug 2022 20:00:00 +0900</pubDate>
+        <pubDate>Tue, 02 Aug 2022 22:00:00 +0900</pubDate>
         <link>
-        https://hybrid0815.github.io/maya</link>
-        <guid isPermaLink="true">https://hybrid0815.github.io/maya</guid>
+        https://hybrid0815.github.io/visual-studio-for-maya</link>
+        <guid isPermaLink="true">https://hybrid0815.github.io/visual-studio-for-maya</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Qt Designer For Maya</title>
+        
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Window 10&lt;/p&gt;
+
+  &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Tue, 02 Aug 2022 21:00:00 +0900</pubDate>
+        <link>
+        https://hybrid0815.github.io/qt-designer-for-maya</link>
+        <guid isPermaLink="true">https://hybrid0815.github.io/qt-designer-for-maya</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Pycharm For Maya</title>
+        
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Window 10&lt;/p&gt;
+
+  &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Tue, 02 Aug 2022 20:00:00 +0900</pubDate>
+        <link>
+        https://hybrid0815.github.io/pycharm-for-maya</link>
+        <guid isPermaLink="true">https://hybrid0815.github.io/pycharm-for-maya</guid>
       </item>
       
     
