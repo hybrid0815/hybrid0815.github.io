@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hybrid0815.github.io/author/hybrid0815/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hybrid0815.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-02T19:04:04+09:00</updated>
+  <updated>2022-08-02T21:56:38+09:00</updated>
   <id>https://hybrid0815.github.io/author/hybrid0815/feed.xml</id>
 
   
@@ -37,7 +37,11 @@
       <published>2022-08-02T22:00:00+09:00</published>
       <updated>2022-08-02T22:00:00+09:00</updated>
       <id>https://hybrid0815.github.io/visual-studio-for-maya</id>
-      <content type="html" xml:base="https://hybrid0815.github.io/visual-studio-for-maya">&lt;blockquote&gt;
+      <content type="html" xml:base="https://hybrid0815.github.io/visual-studio-for-maya">&lt;p&gt;Visual Studio에서 Maya Plugin를 제작 환경을 만듭니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;Window 10&lt;/p&gt;
 
   &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
@@ -72,7 +76,7 @@
       
 
       
-        <summary type="html">Window 10 Maya 2020 Update 3 기준</summary>
+        <summary type="html">Visual Studio에서 Maya Plugin를 제작 환경을 만듭니다.</summary>
       
 
       
@@ -85,7 +89,11 @@
       <published>2022-08-02T21:00:00+09:00</published>
       <updated>2022-08-02T21:00:00+09:00</updated>
       <id>https://hybrid0815.github.io/qt-designer-for-maya</id>
-      <content type="html" xml:base="https://hybrid0815.github.io/qt-designer-for-maya">&lt;blockquote&gt;
+      <content type="html" xml:base="https://hybrid0815.github.io/qt-designer-for-maya">&lt;p&gt;Qt Designer를 사용해 Maya Ui를 제작 환경을 만듭니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;Window 10&lt;/p&gt;
 
   &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
@@ -192,7 +200,7 @@
       
 
       
-        <summary type="html">Window 10 Maya 2020 Update 3 기준</summary>
+        <summary type="html">Qt Designer를 사용해 Maya Ui를 제작 환경을 만듭니다.</summary>
       
 
       
@@ -205,7 +213,11 @@
       <published>2022-08-02T20:00:00+09:00</published>
       <updated>2022-08-02T20:00:00+09:00</updated>
       <id>https://hybrid0815.github.io/pycharm-for-maya</id>
-      <content type="html" xml:base="https://hybrid0815.github.io/pycharm-for-maya">&lt;blockquote&gt;
+      <content type="html" xml:base="https://hybrid0815.github.io/pycharm-for-maya">&lt;p&gt;Pycharm과 Maya를 연동 하는 방법입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;Window 10&lt;/p&gt;
 
   &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
@@ -330,7 +342,7 @@
       
 
       
-        <summary type="html">Window 10 Maya 2020 Update 3 기준</summary>
+        <summary type="html">Pycharm과 Maya를 연동 하는 방법입니다.</summary>
       
 
       

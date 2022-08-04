@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hybrid0815.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hybrid0815.github.io/" rel="alternate" type="text/html" /><updated>2022-08-02T19:04:04+09:00</updated><id>https://hybrid0815.github.io/feed.xml</id><title type="html">CG &amp;amp; AI</title><subtitle>Computer Graphics And AI</subtitle><entry><title type="html">Visual Studio For Maya</title><link href="https://hybrid0815.github.io/visual-studio-for-maya" rel="alternate" type="text/html" title="Visual Studio For Maya" /><published>2022-08-02T22:00:00+09:00</published><updated>2022-08-02T22:00:00+09:00</updated><id>https://hybrid0815.github.io/visual-studio-for-maya</id><content type="html" xml:base="https://hybrid0815.github.io/visual-studio-for-maya">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hybrid0815.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hybrid0815.github.io/" rel="alternate" type="text/html" /><updated>2022-08-02T21:56:38+09:00</updated><id>https://hybrid0815.github.io/feed.xml</id><title type="html">CG &amp;amp; AI</title><subtitle>Computer Graphics And AI</subtitle><entry><title type="html">Visual Studio For Maya</title><link href="https://hybrid0815.github.io/visual-studio-for-maya" rel="alternate" type="text/html" title="Visual Studio For Maya" /><published>2022-08-02T22:00:00+09:00</published><updated>2022-08-02T22:00:00+09:00</updated><id>https://hybrid0815.github.io/visual-studio-for-maya</id><content type="html" xml:base="https://hybrid0815.github.io/visual-studio-for-maya">&lt;p&gt;Visual Studio에서 Maya Plugin를 제작 환경을 만듭니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;Window 10&lt;/p&gt;
 
   &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
@@ -10,7 +14,11 @@
     &lt;li&gt;&lt;a href=&quot;./qt-designer-for-maya&quot;&gt;Qt Designer For Maya&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./visual-studio-for-maya&quot;&gt;Visual Studio For Maya&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr /&gt;</content><author><name>hybrid0815</name></author><category term="maya" /><category term="cpp" /><summary type="html">Window 10 Maya 2020 Update 3 기준</summary></entry><entry><title type="html">Qt Designer For Maya</title><link href="https://hybrid0815.github.io/qt-designer-for-maya" rel="alternate" type="text/html" title="Qt Designer For Maya" /><published>2022-08-02T21:00:00+09:00</published><updated>2022-08-02T21:00:00+09:00</updated><id>https://hybrid0815.github.io/qt-designer-for-maya</id><content type="html" xml:base="https://hybrid0815.github.io/qt-designer-for-maya">&lt;blockquote&gt;
+&lt;hr /&gt;</content><author><name>hybrid0815</name></author><category term="maya" /><category term="cpp" /><summary type="html">Visual Studio에서 Maya Plugin를 제작 환경을 만듭니다.</summary></entry><entry><title type="html">Qt Designer For Maya</title><link href="https://hybrid0815.github.io/qt-designer-for-maya" rel="alternate" type="text/html" title="Qt Designer For Maya" /><published>2022-08-02T21:00:00+09:00</published><updated>2022-08-02T21:00:00+09:00</updated><id>https://hybrid0815.github.io/qt-designer-for-maya</id><content type="html" xml:base="https://hybrid0815.github.io/qt-designer-for-maya">&lt;p&gt;Qt Designer를 사용해 Maya Ui를 제작 환경을 만듭니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;Window 10&lt;/p&gt;
 
   &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
@@ -94,7 +102,11 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802190205103.png&quot; alt=&quot;image-20220802190205103&quot; /&gt;&lt;/p&gt;</content><author><name>hybrid0815</name></author><category term="python" /><category term="maya" /><summary type="html">Window 10 Maya 2020 Update 3 기준</summary></entry><entry><title type="html">Pycharm For Maya</title><link href="https://hybrid0815.github.io/pycharm-for-maya" rel="alternate" type="text/html" title="Pycharm For Maya" /><published>2022-08-02T20:00:00+09:00</published><updated>2022-08-02T20:00:00+09:00</updated><id>https://hybrid0815.github.io/pycharm-for-maya</id><content type="html" xml:base="https://hybrid0815.github.io/pycharm-for-maya">&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-qt-designer-for-maya/image-20220802190205103.png&quot; alt=&quot;image-20220802190205103&quot; /&gt;&lt;/p&gt;</content><author><name>hybrid0815</name></author><category term="python" /><category term="maya" /><summary type="html">Qt Designer를 사용해 Maya Ui를 제작 환경을 만듭니다.</summary></entry><entry><title type="html">Pycharm For Maya</title><link href="https://hybrid0815.github.io/pycharm-for-maya" rel="alternate" type="text/html" title="Pycharm For Maya" /><published>2022-08-02T20:00:00+09:00</published><updated>2022-08-02T20:00:00+09:00</updated><id>https://hybrid0815.github.io/pycharm-for-maya</id><content type="html" xml:base="https://hybrid0815.github.io/pycharm-for-maya">&lt;p&gt;Pycharm과 Maya를 연동 하는 방법입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;Window 10&lt;/p&gt;
 
   &lt;p&gt;Maya 2020 Update 3 기준&lt;/p&gt;
@@ -196,7 +208,7 @@
 
     &lt;p&gt;&lt;img src=&quot;../../assets/built/images/2022-08-02-pycharm_for_maya/image-20220802162525266.png&quot; alt=&quot;image-20220802162525266&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>hybrid0815</name></author><category term="python" /><category term="maya" /><summary type="html">Window 10 Maya 2020 Update 3 기준</summary></entry><entry><title type="html">Unreal - Material(3) 기초</title><link href="https://hybrid0815.github.io/unreal-material-basic-3" rel="alternate" type="text/html" title="Unreal - Material(3) 기초" /><published>2022-08-01T20:00:00+09:00</published><updated>2022-08-01T20:00:00+09:00</updated><id>https://hybrid0815.github.io/unreal-material-basic-3</id><content type="html" xml:base="https://hybrid0815.github.io/unreal-material-basic-3">&lt;p&gt;안녕하세요 Unreal - Material(3) 기초&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>hybrid0815</name></author><category term="python" /><category term="maya" /><summary type="html">Pycharm과 Maya를 연동 하는 방법입니다.</summary></entry><entry><title type="html">Unreal - Material(3) 기초</title><link href="https://hybrid0815.github.io/unreal-material-basic-3" rel="alternate" type="text/html" title="Unreal - Material(3) 기초" /><published>2022-08-01T20:00:00+09:00</published><updated>2022-08-01T20:00:00+09:00</updated><id>https://hybrid0815.github.io/unreal-material-basic-3</id><content type="html" xml:base="https://hybrid0815.github.io/unreal-material-basic-3">&lt;p&gt;안녕하세요 Unreal - Material(3) 기초&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Unreal Material Basic&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;

@@ -183,7 +183,7 @@ into the {body} of the default.hbs template -->
         "title": "Visual Studio For Maya",
             "author": "hybrid0815",
             "category": "",
-            "content": "  Window 10  Maya 2020 Update 3 기준Maya Develop Environment    Pycharm For Maya    Qt Designer For Maya    Visual Studio For Maya",
+            "content": "Visual Studio에서 Maya Plugin를 제작 환경을 만듭니다.  Window 10  Maya 2020 Update 3 기준Maya Develop Environment    Pycharm For Maya    Qt Designer For Maya    Visual Studio For Maya",
         "url": "/visual-studio-for-maya"
     }
     ,
@@ -192,7 +192,7 @@ into the {body} of the default.hbs template -->
         "title": "Qt Designer For Maya",
             "author": "hybrid0815",
             "category": "",
-            "content": "  Window 10  Maya 2020 Update 3 기준Maya Develop Environment    Pycharm For Maya    Qt Designer For Maya    Visual Studio For Maya      Exteral Tools 설정            PySide2-uic        Program : C:\\Program Files\\Autodesk\\Maya2020\\bin\\mayapy.exe    Arguments : “C:\\Program Files\\Autodesk\\Maya2020\\bin\\pyside2-uic” $FileName$ -o ui_$FileNameWithoutExtension$.py    Working directory : $FileDir$        PySide2-rcc        Program : C:\\Program Files\\Autodesk\\Maya2020\\bin\\pyside2-rcc.exe    Arguments : $FileName$ -o rc_$FileNameWithoutExtension$.py    Working directory : $FileDir$        Qt Designer        QT Designer 프로그램 경로로 Python 버전과 상관없고, Maya2018에만 자동으로 설치되어있기 때문에 이 경로로 사용    Program : C:\\Program Files\\Autodesk\\Maya2018\\bin\\designer.exe    Arguments : $FileName$    Working Directory : $FileDir$        Qt Designer New        Program : C:\\Program Files\\Autodesk\\Maya2018\\bin\\designer.exe    Argument : 비워둠    Working directory : $FileDir$        ui 파일 생성                        ui -&gt; py      ",
+            "content": "Qt Designer를 사용해 Maya Ui를 제작 환경을 만듭니다.  Window 10  Maya 2020 Update 3 기준Maya Develop Environment    Pycharm For Maya    Qt Designer For Maya    Visual Studio For Maya      Exteral Tools 설정            PySide2-uic        Program : C:\\Program Files\\Autodesk\\Maya2020\\bin\\mayapy.exe    Arguments : “C:\\Program Files\\Autodesk\\Maya2020\\bin\\pyside2-uic” $FileName$ -o ui_$FileNameWithoutExtension$.py    Working directory : $FileDir$        PySide2-rcc        Program : C:\\Program Files\\Autodesk\\Maya2020\\bin\\pyside2-rcc.exe    Arguments : $FileName$ -o rc_$FileNameWithoutExtension$.py    Working directory : $FileDir$        Qt Designer        QT Designer 프로그램 경로로 Python 버전과 상관없고, Maya2018에만 자동으로 설치되어있기 때문에 이 경로로 사용    Program : C:\\Program Files\\Autodesk\\Maya2018\\bin\\designer.exe    Arguments : $FileName$    Working Directory : $FileDir$        Qt Designer New        Program : C:\\Program Files\\Autodesk\\Maya2018\\bin\\designer.exe    Argument : 비워둠    Working directory : $FileDir$        ui 파일 생성                        ui -&gt; py      ",
         "url": "/qt-designer-for-maya"
     }
     ,
@@ -201,7 +201,7 @@ into the {body} of the default.hbs template -->
         "title": "Pycharm For Maya",
             "author": "hybrid0815",
             "category": "",
-            "content": "  Window 10  Maya 2020 Update 3 기준Maya Develop Environment    Pycharm For Maya    Qt Designer For Maya    Visual Studio For Maya      Devkit 다운로드 Maya DevKit Download            압축 풀기  C:\\Program Files\\Autodesk\\Maya2022\\devkit            프로젝트 생성 및 파이썬 선택            C:\\Program Files\\Autodesk\\Maya2020\\bin\\mayapy.exe 선택                Plugin 설치                Pycharm 다시 실행 및 설치 확인                Python Interpreter 설정 및 자동완성 설정                    C:\\Program Files\\Autodesk\\Maya2020\\devkit\\other\\pymel\\extras\\completion\\py 추가        Maya Port 열기    import maya.cmds as cmds  if not cmds.commandPort(\":4434\", query=True):    cmds.commandPort(name=\":4434\")                자동 완성 테스트    import pymel.all as pmimport pymel.core.datatypes as dtimport maya.cmds as cmdimport maya.OpenMaya as OMimport maya.OpenMayaUI as OMUIfrom PySide2.QtWidgets import *from PySide2.QtGui import *from PySide2.QtCore import *  cmds.polyCube()                실행                  ",
+            "content": "Pycharm과 Maya를 연동 하는 방법입니다.  Window 10  Maya 2020 Update 3 기준Maya Develop Environment    Pycharm For Maya    Qt Designer For Maya    Visual Studio For Maya      Devkit 다운로드 Maya DevKit Download            압축 풀기  C:\\Program Files\\Autodesk\\Maya2022\\devkit            프로젝트 생성 및 파이썬 선택            C:\\Program Files\\Autodesk\\Maya2020\\bin\\mayapy.exe 선택                Plugin 설치                Pycharm 다시 실행 및 설치 확인                Python Interpreter 설정 및 자동완성 설정                    C:\\Program Files\\Autodesk\\Maya2020\\devkit\\other\\pymel\\extras\\completion\\py 추가        Maya Port 열기    import maya.cmds as cmds  if not cmds.commandPort(\":4434\", query=True):    cmds.commandPort(name=\":4434\")                자동 완성 테스트    import pymel.all as pmimport pymel.core.datatypes as dtimport maya.cmds as cmdimport maya.OpenMaya as OMimport maya.OpenMayaUI as OMUIfrom PySide2.QtWidgets import *from PySide2.QtGui import *from PySide2.QtCore import *  cmds.polyCube()                실행                  ",
         "url": "/pycharm-for-maya"
     }
     ,
